@@ -1,0 +1,250 @@
+{
+
+}
+body {
+    margin: 0;
+    color: #333333;
+}
+h2 {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+.header_logo_img {
+    width: 42px;
+    height: 42px;
+    margin-right: 7px;
+}
+.header_logo_text {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 555px;
+    align-items: center;
+}
+.navigation_list {
+    display: flex;
+    padding: 0;
+}
+.navigation_item {
+    margin-right: 30px;
+}
+.navigation_item:last-child {
+    margin-right: 0;
+}
+.navigation_link {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.header_background {
+    background: url("Img/header_background.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.header_background_blue {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* MAIN BLOCK */
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTENTS */
+
+.contents {
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog {
+    width:100%;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.blog_date {
+    color: #0055a6;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.blog_img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.blog_author {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.blog_author a {
+    color: #0055a6;
+}
+.blog_author a:hover {
+    color: #0083ff;
+}
+.blog_text {
+    margin: 0;
+    font-size: 15px;
+}
+
+/* CONTENTS END */
+
+/* SIDE BAR */
+
+.side_bar {
+    width: 360px;
+    margin-top: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.side_bar_title {
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #0055a6;
+    display: inline-block;
+    padding-right: 20px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+/* SIDE BAR SEARCH */
+
+.side_bar_search {
+    width: 100%;
+    padding: 10px 20px 18px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ededed;
+    margin-bottom: 50px;
+}
+.side_bar_search_label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.side_bar_search_input {
+    padding: 10px;
+    border: 2px solid #ededed;
+}
+#side_bar_search_input {
+    padding: 10px;
+    border: 2px solid #ededed;
+}
+
+/* SIDE BAR SEARCH END */
+
+
+/* SIDE BAR POPULAR */
+.side_bar_popular {
+    margin-bottom: 35px;
+}
+.side_bar_popular_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.side_bar_popular_item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.side_bar_popular_link {
+    padding: 15px;
+    background-color: #ededed;
+    font-size: 14px;
+}
+/* SIDE BAR POPULAR END */
+
+/* SIDE BAR POSTS */
+
+.side_bar_posts {
+    margin-bottom: 35px;
+}
+.side_bar_posts_list {
+    width: 100%;
+}
+.side_bar_posts_item {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+}
+.side_bar_posts_link:hover {
+    color: #0055a6;
+}
+.side_bar_posts_title {
+    font-size: 20px;
+}
+.side_bar_posts_info {
+    display: flex;
+}
+.side_bar_posts_img {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    box-sizing: content-box;
+}
+.side_bar_posts_text {
+    margin: 0;
+    font-size: 14px;
+}
+/* SIDE BAR POSTS END */
+
+/* SIDE BAR CATEGORIES  */
+
+.side_bar_categories {
+
+}
+.side_bar_categories_list {
+    width: 100%;
+}
+.side_bar_categories_item {
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+}
+.side_bar_categories_link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+..side_bar_categories_link:hover {
+    color: #0055a6;
+}
+
+/* SIDE BAR CATEGORIES END  */
+/* SIDE BAR END */
